@@ -15,6 +15,7 @@ class Circle:
     def __str__(self):
         return f"I am a circle of size {self.radius}{self.units} located at {self.position}."
 
+
     def area(self):
         return math.pi * self.radius ** 2
 
@@ -88,7 +89,7 @@ def main():
     print(f"My area is {circle.area}{circle.units}^2.")
 
 
-    print(f"The area is {circle.area()}")
+    print(f"{circle.area()= }")
 
 
     print(f"{circle.perimeter()= }")
