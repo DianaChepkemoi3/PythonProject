@@ -50,5 +50,6 @@ def main():
     #draw_triangle()
     write_text("Hello world")
     return 0
+
 if __name__=="__main__":
     sys.exit(main())
