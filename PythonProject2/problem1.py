@@ -15,6 +15,7 @@ def main():
     d_squared=(x1-x2)**2+(y1-y2)**2+(z1-z2)**2
     print(f"d_squared={d_squared}")
 
+
     return 0
 if __name__=="__main__":
     sys.exit(main())
