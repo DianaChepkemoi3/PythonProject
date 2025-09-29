@@ -54,6 +54,11 @@ def main():
     Ghana_df = pd.DataFrame(Ghana_data,columns=columns)
     Ivory_coast_df = pd.DataFrame(Ivory_coast_data,columns=columns)
 
+    print("Ghana Table:")
+    print(Ghana_df)
+    print("Ivory Coast Table:")
+    print(Ivory_coast_df)
+
     fig, axes = plt.subplots(2, 2, figsize=(15, 12))
 
     axes[0, 0].scatter(Ghana_df['Year'], Ghana_df['Yield(hg/ha)'], color="green", marker="o")
